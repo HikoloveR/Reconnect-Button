@@ -5,10 +5,18 @@
   "name": "Reconnect Button",
   "description": "Fast reconnect button for quickly returning to the last Minecraft server from the disconnect screen.",
   "authors": [
-    "HikoloveR"
+    {
+      "name": "HikoloveR",
+      "contact": {
+        "homepage": "https://github.com/HikoloveR/Reconnect-Button"
+      }
+    }
   ],
   "icon": "assets/reconnect_button/icon.png",
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/HikoloveR/Reconnect-Button",
+    "sources": "https://github.com/HikoloveR/Reconnect-Button"
+  },
   "license": "All-Rights-Reserved",
   "environment": "client",
   "entrypoints": {
