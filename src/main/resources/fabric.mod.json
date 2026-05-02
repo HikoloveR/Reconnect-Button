@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "reconnect_button",
+  "version": "${version}",
+  "name": "Reconnect Button",
+  "description": "Adds a fast reconnect button to Minecraft server screens.",
+  "authors": [
+    "HikoloveR"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.fakefun.reconnectbutton.ReconnectButtonClient"
+    ]
+  },
+  "mixins": [
+    "reconnect_button.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
