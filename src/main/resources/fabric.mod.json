@@ -3,10 +3,11 @@
   "id": "reconnect_button",
   "version": "${version}",
   "name": "Reconnect Button",
-  "description": "Adds a fast reconnect button to Minecraft server screens.",
+  "description": "Fast reconnect button for quickly returning to the last Minecraft server from the disconnect screen.",
   "authors": [
     "HikoloveR"
   ],
+  "icon": "assets/reconnect_button/icon.png",
   "contact": {},
   "license": "All-Rights-Reserved",
   "environment": "client",
